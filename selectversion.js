@@ -39,6 +39,9 @@ $.get(urlroot, (data) =>
       {
       let ret = parseDirectoryListing(data);
       $('.dropdown-content').append(ret.join(''));
+
+      // Now check which links actually exist, and remove the href for those
+      // that don't.
       $('.dropdown-content')
       .find('.verslink')
       .each(function() {
