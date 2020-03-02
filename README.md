@@ -3,7 +3,7 @@
 This tool allows client-side selection of different versions of the same Doxygen page.
 It provides a drop-down menu, displaying all available versions. Only those versions
 become links that feature the current page; all others are grayed out and marked with
-strike-though, to signal that the version did not yet (or not anymore) offer that class.
+strike-though, to signal that the version did not yet (or does not anymore) offer that class.
 
 To use, add to the end of the `<head>:
 ```html
