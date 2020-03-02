@@ -22,7 +22,7 @@ and somewhere in the doxygen HTML header ( `titlearea`) where you'd traditionall
    <div class="dropdown-content">
    </div>
 </div>
-<script src="../selectversion.js"></script>
+<script type="text/javascript" src="../selectversion.js"></script>
 <!-- END version select -->
 ```
 
