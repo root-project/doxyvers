@@ -28,3 +28,6 @@ and somewhere in the doxygen HTML header ( `titlearea`) where you'd traditionall
 
 This tool assumes that the doxygen documentation for all versions has a common and
 browsable ("index"-able) parent directory containing the files of this repository.
+
+See the top of `selectversion.js` for configuration options, and adjust the style / colors / 
+width in `dropdown.css`.
