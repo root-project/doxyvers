@@ -74,7 +74,7 @@ function parseDirectoryListing(text)
                          && !/^[.]/.test(line);
                       });
 
-   if (docs.includes('master')) {
+   if (docs.includes(master)) {
       // Move "master" first.
       docs.splice(0, 0, docs[docs.length - 1]);
       docs.pop();
