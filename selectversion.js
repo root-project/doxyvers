@@ -47,7 +47,7 @@ $.get(urlroot, (data) =>
       .each(function() {
             var el = $(this);
             var request = new XMLHttpRequest();
-            request.open('GET', el.attr('href'), true);
+            request.open('HEAD', el.attr('href'), true);
             request.onreadystatechange = function(){
                if (request.readyState === 4){
                   if (request.status === 404) {
