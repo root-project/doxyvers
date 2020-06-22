@@ -2,13 +2,9 @@
 /* Adapted from https://www.w3schools.com/howto/howto_css_dropdown.asp */
 .dropbtn {
   margin-left: 30px;
-  background-color: rgba(255,255,255,0.1);
-  border-radius: 6px 6px 0 0;
-  border-top: 1px solid lightgray;
-  border-left: 1px solid lightgray;
-  border-right: 1px solid lightgray;
-  border-bottom: none;
+  border: 1px solid lightgray;
   color: white;
+  background-color: #346295;
   padding: 6px 16px 6px 16px;
   font-size: 14px;
   min-width: 150px;
