@@ -35,7 +35,7 @@ let thisvers = url2version(patharr);
 $('.dropbtn').html("Version " + url2label(thisvers));
 
 // https://stackoverflow.com/questions/30622369
-$.get(urlroot, (data) =>
+$.get(urlroot + '/', (data) =>
       {
       let ret = parseDirectoryListing(data);
       $('.dropdown-content').append(ret.join(''));
